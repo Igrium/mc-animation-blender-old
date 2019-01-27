@@ -6,31 +6,24 @@ import importlib
 if "bpy" in locals():
 
 	importlib.reload(operator_anim_export)
+	importlib.reload(operator_rig_import)
 	
 
 else:
 	import bpy
 
 	from . import (
-		operator_anim_export
+		operator_anim_export,
+		operator_rig_import
 	)
 
 
 def register(bl_info):
-
-
-	# for mod_num in sorted(list(modules)):
-	# 	mod = locals()[modules[mod_num]['name']]
-	# 	if hasattr(mod, "register"):
-	# 		getattr(mod, "register")()
-	# 	else:
-	# 		print("Error, {} does not have a register function".format(
-	# 			modules[mod_num]['name']))
-
 	operator_anim_export.register()
+	operator_rig_import.register()
 
 
 
 def unregister(bl_info):
-
 	operator_anim_export.unregister()
+	operator_rig_import.unregister()
