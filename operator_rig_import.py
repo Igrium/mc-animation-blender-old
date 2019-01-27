@@ -32,7 +32,7 @@ class operator_rig_import(bpy.types.Operator):
 
     @classmethod
     def poll(cls, context):
-        return context.active_object is not None
+        return True
 
     def execute(self, context):
         main(context)
@@ -41,7 +41,7 @@ class operator_rig_import(bpy.types.Operator):
 
 
 def register():
-    print("Registered Import Armor Stand")
+    print("Registeregit d Import Armor Stand")
     #bpy.utils.register_class(operator_rig_import)
 
 
