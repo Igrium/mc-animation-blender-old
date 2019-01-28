@@ -1,5 +1,5 @@
 # What is this?
-The Minecraft animation system is a set of programs designed to let you animate armor stands in Minecraft. This is a blender addon designed for exporting your animation into a .mcanim file which can be compiled into an mcfunction with a [java program.](https://github.com/Sam54123/mc-animation)
+The Minecraft animation system is a set of programs designed to let you animate armor stands in Minecraft. This is a blender addon designed for exporting your animation into a .mcanim file which can be compiled into an mcfunction with a [java program.](https://github.com/Sam54123/mc-animation) [Video Tutorial](https://youtu.be/QrI1A568HvQ)
 
 ## Installation
 
