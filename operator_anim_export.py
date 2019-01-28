@@ -13,7 +13,7 @@ from bpy.types import Operator
 class operator_anim_export(Operator, ExportHelper):
     """This appears in the tooltip of the operator and in the generated docs"""
     bl_idname = "mcanim.export"  # important since its how bpy.ops.import_test.some_data is constructed
-    bl_label = "Export MCAnim"
+    bl_label = "Export Minecraft Animation (.mcanim)"
 
     # ExportHelper mixin class uses this
     filename_ext = ".mcanim"
